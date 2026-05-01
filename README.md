@@ -1,6 +1,3 @@
-cd ~/Desktop/nano-quadcopter-perception
-
-cat > README.md <<'EOF'
 # Nano Quadcopter Perception
 
 An experimental perception stack for a quadcopter using a Jetson Orin Nano as the onboard analysis computer.
