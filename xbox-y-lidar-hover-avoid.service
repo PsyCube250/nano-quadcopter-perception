@@ -1,0 +1,16 @@
+[Unit]
+Description=Xbox Y LiDAR hover avoidance controller
+After=multi-user.target dev-ttyTHS1.device dev-ttyUSB0.device
+Wants=dev-ttyTHS1.device dev-ttyUSB0.device
+
+[Service]
+Type=simple
+User=jetson
+Group=jetson
+WorkingDirectory=/home/jetson/Documents
+ExecStart=/usr/bin/python3 /home/jetson/Documents/xbox_y_lidar_hover_avoid.py --no-confirm --allow-flight-throttle --boost-throttle 1250 --hover-throttle 1200 --run-sec 0
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pt
+*.tar.gz
+*.csv
+*.ply
+*.html
+driver_installers/
+nano-quadcopter-perception/
