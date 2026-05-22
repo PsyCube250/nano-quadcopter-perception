@@ -1,1 +1,1 @@
-My edits as Aryan Naik , coding the jeston nano and controller communicationa dn adrone controller , sonar height controller using PID and etc.
+My edits as Aryan Naik , coding the jeston nano and xbox bluetooth controller communications and drone controller , sonar height controller using PID and basic manuverability tests.
